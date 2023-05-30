@@ -1,0 +1,19 @@
+Product.css
+.product {
+  max-width: 250px;
+  animation: slide-up 0.5s ease 1;
+  transform: all 0.3s;
+}
+.product img{
+  width:100%;
+  height:70%
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

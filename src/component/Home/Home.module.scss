@@ -1,0 +1,50 @@
+.home{
+      width: 100%;
+      height: 90vh;
+      position: relative;
+      overflow: hidden;
+}
+// .icon-wrapper{
+//   width: 80%;
+//   height: 70vh;
+//   transform: 0.5s ease-in-out;
+//   }
+
+.slider.active{
+  transform: translateY(0)
+}
+.no-input{
+  width: 10px;
+  padding: 8px;
+}
+#inp{
+  width: 300px;
+  padding: 8px;
+  }
+#inputs{
+  margin-bottom: 12px;
+  padding: 8px;
+  width: 110px;
+  }
+// input{
+//   border:4px solid rgb(0, 255, 136);
+//   position: absolute;
+//   margin-top: 20px;
+//   right:40%;
+//   width: 300px;
+//   height: 50px;
+// }
+
+
+.homeleft{
+  width:400px;
+  height: 100%;
+  position:absolute;
+  left:0;
+  margin:3rem;
+  background : pink
+}
+// .center{
+//   position: absolute;
+//   right: 0;
+// }
